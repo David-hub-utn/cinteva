@@ -1,0 +1,59 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<script type="text/javascript"> 
+  $(document).ready(function(){ // Script del Navegador
+    $("ul.subnavegador").hide(); 
+    $("a.desplegable").toggle(
+      function() { 
+        $(this).parent().find("ul.subnavegador").slideDown('fast'); 
+      },
+      function() { 
+        $(this).parent().find("ul.subnavegador").slideUp('fast'); 
+      } 
+    ); 
+});
+</script>
+  <title>Emenia Demo - Menú vertical desplegable con jQuery</title>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script type="text/javascript"> 
+  $(document).ready(function(){ // Script del Navegador
+    $("ul.subnavegador").hide(); 
+    $("a.desplegable").toggle(
+      function() { 
+        $(this).parent().find("ul.subnavegador").slideDown('fast'); 
+      },
+      function() { 
+        $(this).parent().find("ul.subnavegador").slideUp('fast'); 
+      } 
+    ); 
+});
+</script>
+</head>
+<body>
+  <div id="contenido-demo"> 
+   <h2>Menú vertical desplegable con jQuery</h2>
+ 
+   <ul class="navegador">
+    <li><a href="#" title="Opción 1">Opción 1</a></li>
+    <li><a href="#" title="Opción 2">Opción 2</a></li>
+    <li><a href="#" class="desplegable" title="Opción 3">Opción 3</a>
+      <ul class="subnavegador">
+        <li><a href="http://www.google.es" title="Ir a Sub-Opción 3-1">Sub-Opción 3-1</a></li>
+        <li><a href="#" title="Ir a Sub-Opción 3-2">Sub-Opción 3-2</a></li> 
+        <li><a href="#" title="Ir a Sub-Opción 3-3">Sub-Opción 3-3</a></li>
+        <li><a href="#" title="Ir a Sub-Opción 3-4">Sub-Opción 3-4</a></li>
+      </ul>
+    </li> 
+    <li><a href="#" class="desplegable" title="Opción 4">Opción 4</a> 
+      <ul class="subnavegador">
+        <li><a href="#" title="Ir a Sub-Opción 3-1">Sub-Opci&oacute;n 3-1</a></li>
+        <li><a href="#" title="Ir a Sub-Opción 3-2">Sub-Opción 3-2</a></li> 
+        <li><a href="#" title="Ir a Sub-Opción 3-3">Sub-Opción 3-3</a></li>
+        <li><a href="#" title="Ir a Sub-Opción 3-4">Sub-Opción 3-4</a></li>
+     </ul>
+    </li>
+  </ul>
+ </div> 
+</body>
+</html>

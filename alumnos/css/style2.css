@@ -1,0 +1,64 @@
+        .portada{
+            background: url(../images/modulo_uno1.png) no-repeat fixed center;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: cover;
+           height: 100%;
+           width: 100% ;
+           text-align: center;
+        }
+body
+{
+background-image:url(../layout/fondo-admin-final.png);
+background-repeat:repeat;
+text-align: center;
+color: white;
+}
+#page {
+    margin:-20px 10px 10px -10px;
+    background:url(../layout/contenido.png);
+    width:890px;
+    height:635px;
+    float:left; /* Este es uno de los cambios */
+}
+#page #content {
+    padding:25px 30px 0 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu {
+    float:left;
+    margin:10px auto 0 auto;
+    background:url(../layout/menu.png);
+    width:10px;
+    height:200px;
+    margin-left: 0px;
+    margin-top: 500px;
+}
+
+.portada{
+    background: url(../../../images/historia_mexico.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+
+}
+.text{
+margin: 30px;  
+padding: 30px;
+background: rgba(0,0,0,0.5);
+display: inline-block;
+text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

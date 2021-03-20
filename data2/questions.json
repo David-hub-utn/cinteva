@@ -1,0 +1,173 @@
+
+
+
+{
+  "1": {
+    "question": "¿Qué cultura recibe el nombre de “Cultura madre?",
+    "answers": {
+      "1": {
+
+        "answer": "Mexica",
+        "istrue": false
+      },
+      "2": {
+        "answer": "Olmeca",
+        "istrue": true
+      },
+      "3": {
+        "answer": "Azteca",
+        "istrue": false
+      }
+    }
+  },
+  "2": {
+    "question": "¿Qué ciudad fundaron los mexicas o aztecas ?",
+    "answers": {
+
+      "1": {
+        "answer": "Teotihuacán",
+        "istrue": false
+      },
+      "2": {
+        "answer": "Tultitlán",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Tenochtitlán",
+        "istrue": true
+      }
+    }
+  },
+  "3": {
+    "question": "¿Quiénes eran los nacidos en la nueva España, pero de padre y madre españoles?",
+    "answers": {
+      "1": {
+        "answer": "Los criollos",
+        "istrue": true
+      },
+      "2": {
+        "answer": "Los mestizos",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Los gachupines",
+        "istrue": false
+      }
+    }
+  },
+   "4": {
+    "question": "¿Qué día se inició la independencia de México?",
+    "answers": {
+      "1": {
+        "answer": "16 de septiembre de 1810",
+
+        "istrue": true
+      },
+      "2": {
+        "answer": "15 de septiembre de 1810",
+        "istrue": false
+      },
+      "3": {
+        "answer": "15 de septiembre de 1910",
+        "istrue": false
+      }
+    }
+  },
+   "5": {
+    "question": "¿En qué año descubrió América Colón?",
+    "answers": {
+      "1": {
+        "answer": "1492",
+        "istrue": true
+      },
+      "2": {
+        "answer": "1810",
+        "istrue": false
+      },
+      "3": {
+        "answer": "1788",
+        "istrue": false
+      }
+    }
+  }, "6": {
+    "question": "¿En qué guerra participó Juana de arco?",
+    "answers": {
+      "1": {
+        "answer": "La guerra de los 100 años",
+        "istrue": true
+      },
+      "2": {
+        "answer": "La guerra de los 30 años",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Guerras napoleónicas",
+        "istrue": false
+      }
+    }
+  }, "7": {
+    "question": "¿Cuál era la capital del Imperio Inca?",
+    "answers": {
+      "1": {
+        "answer": "Cuzco",
+        "istrue": true
+      },
+      "2": {
+        "answer": "Quito",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Lima",
+        "istrue": false
+      }
+    }
+  }, "8": {
+    "question": "¿Cuándo se produjo principalmente el Siglo de Oro?",
+    "answers": {
+      "1": {
+        "answer": "Siglo XVI",
+        "istrue": true
+      },
+      "2": {
+        "answer": "Siglo XVII",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Siglo XVIII",
+        "istrue": false
+      }
+    }
+  }, "9": {
+    "question": "¿Quién fue el primer emperador romano?",
+    "answers": {
+      "1": {
+        "answer": "Cesar Augusto",
+        "istrue": true
+      },
+      "2": {
+        "answer": "Nerón",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Calígula",
+        "istrue": false
+      }
+    }
+  }, "10": {
+    "question": "¿En qué país nació Adolf Hitler?",
+    "answers": {
+      "1": {
+        "answer": "Austria",
+        "istrue": true
+      },
+      "2": {
+        "answer": "Alemania",
+        "istrue": false
+      },
+      "3": {
+        "answer": "Polonia",
+        "istrue": false
+      }
+    }
+  }
+}
